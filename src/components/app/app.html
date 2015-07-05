@@ -1,0 +1,24 @@
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">Angular 2 Examples</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a [router-link]="['/home']">Home</a>
+        </li>
+        <li>
+          <a [router-link]="['/todo']">Todo</a>
+        </li>
+        <li>
+          <a [router-link]="['/others']">Others</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <!-- components are loaded here -->
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "angular2-examples",
+  "version": "0.0.1",
+  "description": "Examples for Angular 2",
+  "repository": "https://github.com/DawidMyslak/angular2-examples",
+  "author": "Dawid Myslak",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-plumber": "~1.0.1",
+    "gulp-typescript": "~2.7.5",
+    "del": "^1.1.1",
+    "systemjs-builder": "^0.10.6",
+    "typescript": "~1.5.0-beta",
+    "serve-static": "~1.8.1",
+    "connect": "^3.3.4",
+    "open": "0.0.5"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.29",
+    "es6-module-loader": "^0.15.0",
+    "reflect-metadata": "0.1.0",
+    "systemjs": "^0.16.0",
+    "zone.js": "^0.4.1"
+  }
+}
