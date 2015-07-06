@@ -10,7 +10,7 @@ import {Component, View, Parent, NgFor, CSSClass} from 'angular2/angular2';
     <div class="panel panel-default panel-tabs">
       <div class="panel-heading">
         <ul class="nav nav-tabs">
-          <li *ng-for="#tab of tabs" [class]="tab.cssClass"><a role="button" (click)="selectTab(tab)">{{tab.title}}</a></li>
+          <li *ng-for="#tab of tabs" [class.active]="tab.isActive"><a role="button" (click)="selectTab(tab)">{{tab.title}}</a></li>
         </ul>
       </div>
       <div class="panel-body">
@@ -56,7 +56,6 @@ export class Tabs {
 })
 export class Tab {
   isActive: boolean;
-  cssClass: string;
 
   constructor(@Parent() tabs: Tabs) {
     console.log('constructor: Tab');
@@ -66,11 +65,9 @@ export class Tab {
 
   select() {
     this.isActive = true;
-    this.cssClass = 'active';
   }
 
   unselect() {
     this.isActive = false;
-    this.cssClass = undefined;
   }
 }
