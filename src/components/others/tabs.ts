@@ -25,7 +25,7 @@ export class Tabs {
 
   constructor() {
     console.log('constructor: Tabs');
-    this.tabs = [];
+    this.tabs = new Array<Tab>();
   }
 
   selectTab(tab: Tab) {

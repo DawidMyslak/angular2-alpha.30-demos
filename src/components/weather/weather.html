@@ -1,0 +1,9 @@
+<h1>Weather</h1>
+<table class="table table-hover">
+  <tbody>
+    <tr *ng-for="#weatherForecast of weatherForecasts">
+      <td>{{weatherForecast.city}}</td>
+      <td>{{weatherForecast.temperature}}°C</td>
+    </tr>
+  </tbody>
+</table>

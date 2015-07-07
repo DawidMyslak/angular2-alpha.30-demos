@@ -4,6 +4,7 @@ import {Component, View} from 'angular2/angular2';
 import {RouteConfig, Router, RouterOutlet, RouterLink} from 'angular2/router';
 import {HomeComponent} from '../../components/home/home';
 import {TodoComponent} from '../../components/todo/todo';
+import {WeatherComponent} from '../../components/weather/weather';
 import {OthersComponent} from '../../components/others/others';
 
 @Component({
@@ -18,6 +19,7 @@ import {OthersComponent} from '../../components/others/others';
   { path: '/', redirectTo: '/home' },
   { path: '/home', as: 'home', component: HomeComponent },
   { path: '/todo', as: 'todo', component: TodoComponent },
+  { path: '/weather', as: 'weather', component: WeatherComponent },
   { path: '/others', as: 'others', component: OthersComponent }
 ])
 export class AppComponent {
