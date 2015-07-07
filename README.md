@@ -7,7 +7,7 @@ Shows how to:
 * Setup development environment with Gulp, NodeJS and TypeScript
 * Create scalable project structure
 * Use annotations and decorators
-* Use routing
+* Use routing and HTTP modules
 * Build reusable components, e.g. tabs and zippy
 
 # Demo
