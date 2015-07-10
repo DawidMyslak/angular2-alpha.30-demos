@@ -5,7 +5,7 @@ import {WeatherService} from '../../services/weather';
 
 @Component({
   selector: 'weather',
-  hostInjector: [WeatherService]
+  viewInjector: [WeatherService]
 })
 @View({
   templateUrl: 'components/weather/weather.html',
