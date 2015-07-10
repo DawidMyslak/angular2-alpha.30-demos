@@ -1,7 +1,7 @@
 # Angular 2 Examples
 This app was created using:
 * TypeScript (1.5.0-beta)
-* Angular 2 (2.0.0-alpha.29)
+* Angular 2 (2.0.0-alpha.30)
 
 Shows how to:
 * Setup development environment with Gulp, NodeJS and TypeScript
