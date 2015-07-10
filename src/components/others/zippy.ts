@@ -11,7 +11,7 @@ import {Component, View} from 'angular2/angular2';
   template: `
   <div class="panel panel-default">
     <div class="panel-heading" role="button" (click)="toggle()">
-      <h3 class="panel-title">{{title}} {{ isVisible ? '&blacktriangledown;' : '&blacktriangleright;' }}</h3>
+      {{title}} {{ isVisible ? '&blacktriangledown;' : '&blacktriangleright;' }}
     </div>
     <div class="panel-body" [hidden]="!isVisible">
       <content></content>
