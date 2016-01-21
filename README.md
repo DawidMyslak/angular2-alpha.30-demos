@@ -10,9 +10,6 @@ Shows how to:
 * Use routing and HTTP modules
 * Build reusable components, e.g. tabs and zippy
 
-# Demo
-[http://dawid.myslak.me/demos/ng2](http://dawid.myslak.me/demos/ng2)
-
 # Installation
 ```bash
 git clone https://github.com/DawidMyslak/angular2-examples.git
